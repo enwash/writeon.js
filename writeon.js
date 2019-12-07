@@ -59,8 +59,6 @@ var writeon = function() {
   }, 200 * (states[cState].length - 1) + 500 * 6);
 };
 
-var writeon_init = function() {
-  setTimeout(function() {
-    writeon();
-  }, 300);
-}
+setTimeout(function() {
+  writeon();
+}, 300);
