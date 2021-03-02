@@ -1,7 +1,7 @@
 # writeon.js
 Simple javascript library to create a text writeon effect
 
-To use, simply add the data attribute `writeon` to an empty element, then add a lsit of states, separated by double slashes, to the `states` data attribute:
+To use, simply add the data attribute `writeon` to an empty element, then add a list of states, separated by double slashes, to the `states` data attribute:
 ```
 <h1 data-writeon data-states='Hello there.//Hey there.//Bonjour.'"></h1>
 ```
